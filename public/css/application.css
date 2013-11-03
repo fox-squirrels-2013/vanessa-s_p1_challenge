@@ -1,0 +1,44 @@
+body {
+  background-image: url('../royaltyinexile.png');
+  background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+  width: 75%;
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  line-height: 140%;
+  color: white;
+}
+th {
+  text-align: left;
+}
+p, label {
+  color: white;
+  line-height: 40%;
+  font-family: 'Abel', sans-serif;
+
+}
+#list {
+  margin: 5em;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/*.buttons {
+  border: .1em solid white;
+  border-radius: 10%;
+  color: brown;
+}*/
+#list {
+  width: 30%;
+  padding: .5em;
+  border: .2em solid white;
+  border-radius: 5%;
+}

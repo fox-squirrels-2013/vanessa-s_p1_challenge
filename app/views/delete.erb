@@ -1,0 +1,8 @@
+
+
+<div class="container">
+  <p>do you really want to delete '<%= @note.notetext %>' ?</p>
+  <form action="/delete/<%= @note.id %>" method="post">
+    <input type="submit" value="yup!">
+  </form>
+</div>

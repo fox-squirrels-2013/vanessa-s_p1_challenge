@@ -1,0 +1,12 @@
+<%= erb :add %>
+<div id="list">
+  <% if @notes %>
+  <p>_click on an entry to amend or delete_</p>
+  <% @notes.each do |note|%>
+  <% if note.notetext %>
+  <p><a href='/update/<%= note.id %>'><%= note.notetext %></p></a>
+  <% end %>
+  <% end %>
+  <% end %>
+</div>
+

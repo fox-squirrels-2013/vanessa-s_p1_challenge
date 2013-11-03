@@ -1,0 +1,12 @@
+<div class="container">
+  <div id="forms">
+    <%= @note.notetext %>
+    <form class="buttons" action="/update/<%= @note.id %>" method="post">
+      <input type="text" name="notetext">
+      <input type="submit" value="now update it!">
+    </form>
+    <form class="buttons" action="/delete/sure/<%= @note.id %>" method="post">
+      <input type="submit" value="actually, delete it!">
+    </form>
+  </div>
+</div
